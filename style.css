@@ -25,11 +25,12 @@ body{
     float: left;
 }
 
-.heading h1{
+.portfolio .heading h1{
     font-size: 35px;
     color: white;
     margin: 0px 0px 20px;
     text-align: center;
+    letter-spacing: 0.5px;
 }
 
 .portfolio .filter-btn{
@@ -44,10 +45,18 @@ body{
     padding: 0;
 }
 
+.portfolio .filter-btn {
+    padding: 20px 0px;
+}
+
 .portfolio .filter-btn ul li{
     display: inline-block;
     background-color: #9568e4;
-    padding: 8px 20px;
+    padding: 6px 15px;
     color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0px 1px;
+    cursor: pointer;
 }
 
