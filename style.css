@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    max-width: 1170px;
+    max-width: 1000px;
     margin: auto;
 }
 .portfolio{
@@ -46,7 +46,7 @@ body{
 }
 
 .portfolio .filter-btn {
-    padding: 20px 0px;
+    padding: 30px 0px 20px;
 }
 
 .portfolio .filter-btn ul li{
@@ -60,3 +60,18 @@ body{
     cursor: pointer;
 }
 
+.portfolio .items{
+    float: left;
+    width: 100%;
+}
+
+.portfolio .items .box{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.portfolio .items .box .inner img{
+	width:100%;
+	display: block;
+}
