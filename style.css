@@ -60,6 +60,10 @@ body{
     cursor: pointer;
 }
 
+.portfolio .filter-btn ul li .active{
+    background: #ff9800;
+}
+
 .portfolio .items{
     float: left;
     width: 100%;
